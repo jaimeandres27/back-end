@@ -16,6 +16,10 @@ import java.time.LocalDateTime;
 public class User implements Serializable {
 	
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -6329273549368936671L;
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	@Column(name="user_id")

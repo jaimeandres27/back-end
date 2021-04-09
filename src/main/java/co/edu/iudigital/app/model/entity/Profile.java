@@ -13,6 +13,10 @@ import javax.persistence.Table;
 
 public class Profile implements Serializable{
 
+		/**
+	 * 
+	 */
+	private static final long serialVersionUID = 2327119390730978198L;
 		@Id
 		@Column(name="profile_id")
 		private int id;

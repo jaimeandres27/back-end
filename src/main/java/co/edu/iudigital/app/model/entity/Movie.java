@@ -17,6 +17,10 @@ import javax.persistence.Table;
 @Table(name = "movie")
 public class Movie implements Serializable{
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 6671679209360798931L;
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "movie_id")
