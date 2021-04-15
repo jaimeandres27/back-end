@@ -23,5 +23,10 @@ public class UserController {
 		return userService.login(user);
 	}
 	
+	@PostMapping("/create")
+	public void create(@RequestBody User user){
+		userService.create(user);
+	}
 	
+
 }

@@ -6,6 +6,8 @@ public interface UserService {
 	/**
 	 * Crear nuevo usuario
 	 * @param user
+	 * @return 
+	 * @throws Exception 
 	 */
 	public void create(User user);
 	/**

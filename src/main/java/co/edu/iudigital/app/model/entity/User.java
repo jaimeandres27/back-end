@@ -11,7 +11,7 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import java.time.LocalDateTime;
 @Entity
-@Table(name="user")
+@Table(name="usuario")
 
 public class User implements Serializable {
 	
@@ -68,7 +68,4 @@ public class User implements Serializable {
 	public void setProfileId(Profile profileId) {
 		this.profileId = profileId;
 	}
-	
-	
-	
 }
